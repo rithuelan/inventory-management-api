@@ -27,9 +27,9 @@ bash ---- python app.py
 
 🧪 Example API Calls (via Postman or curl)
 ✅ Create Product
-bash
-Copy
-Edit
+'''bash
+
 curl -X POST http://127.0.0.1:5000/products \
 -H "Content-Type: application/json" \
 -d "{\"name\":\"Laptop\", \"category\":\"electronics\", \"price\":1200, \"stock\":20}
+
